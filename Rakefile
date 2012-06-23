@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "array_groupings"
   gem.homepage = "http://github.com/kaspernj/array_groupings"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A small framework for grouping of array elements with overlapping elements.}
+  gem.description = %Q{[1, 2, 4, 5] #~> [[1, 2], [2, 4], [4, 5]]}
   gem.email = "k@spernj.org"
   gem.authors = ["Kasper Johansen"]
   # dependencies defined in Gemfile
