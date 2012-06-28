@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{array_groupings}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kasper Johansen"]
-  s.date = %q{2012-06-23}
+  s.date = %q{2012-06-28}
   s.description = %q{[1, 2, 4, 5] #~> [[1, 2], [2, 4], [4, 5]]}
   s.email = %q{k@spernj.org}
   s.extra_rdoc_files = [
